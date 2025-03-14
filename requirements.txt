@@ -1,7 +1,9 @@
+streamlit
 pandas
 numpy
-streamlit
 scikit-learn
 matplotlib
+seaborn
 pickle
 joblib
+
