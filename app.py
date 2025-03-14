@@ -1,12 +1,12 @@
 import streamlit as st
-import pickle
+import joblib
 import numpy as np
 import pandas as pd
 
 
 # Load the saved model and scaler
 with open(r"best_rf_pipeline.pkl", "rb") as model_file:
-    pipeline = pickle.load(model_file)
+    pipeline = joblib.load(model_file)
 # pipeline = pickle.load('House_predictor.pkl')
 cities = [
     'Shoreline', 'Kent', 'Bellevue', 'Redmond', 'Seattle',
