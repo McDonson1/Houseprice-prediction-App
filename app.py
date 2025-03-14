@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-import sklearn
+
 
 # Load the saved model and scaler
 with open(r"best_rf_pipeline.pkl", "rb") as model_file:
